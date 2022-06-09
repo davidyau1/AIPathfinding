@@ -68,7 +68,7 @@ public class AgentMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        NavMeshAgent agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
